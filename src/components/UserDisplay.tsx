@@ -127,19 +127,7 @@ const UserDisplay: React.FC = () => {
           marginTop: 30,
         }}
       >
-        <TouchableOpacity
-          onPress={fetchNewUser}
-          style={{
-            height: 50,
-            width: '40%',
-            backgroundColor: 'blue',
-            alignItems: 'center',
-            justifyContent: 'center',
-            borderRadius: 10,
-          }}
-        >
-          <Text style={{ color: 'white', fontWeight: 'bold' }}>Fetch</Text>
-        </TouchableOpacity>
+        
 
         <TouchableOpacity
           onPress={displayPreviousUser}
@@ -154,6 +142,19 @@ const UserDisplay: React.FC = () => {
           }}
         >
           <Text style={{ color: 'white', fontWeight: 'bold' }}>Previous</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={fetchNewUser}
+          style={{
+            height: 50,
+            width: '40%',
+            backgroundColor: 'blue',
+            alignItems: 'center',
+            justifyContent: 'center',
+            borderRadius: 10,
+          }}
+        >
+          <Text style={{ color: 'white', fontWeight: 'bold' }}>Fetch</Text>
         </TouchableOpacity>
       </View>
     </View>
