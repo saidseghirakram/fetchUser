@@ -1,2 +1,2 @@
 # fetchUser
- <img src="./assets/screenshot.gif"  width="200" height="380">
+ <img src="./assets/screenshot.gif"  width="200" height="400">
